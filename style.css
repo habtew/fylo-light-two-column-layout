@@ -188,7 +188,7 @@ box-shadow: 0px 7px 25px 2px var(--clr-light-gray);
 
 /* early access-layout */
 
-.early-access{
+.early-access .container{
     display: flex;
     flex-direction: column;
     padding: 1em .7em .9em;
@@ -225,10 +225,12 @@ margin: 20px 0;
 
 /* footer */
 footer{
-text-align: left;
-padding: 2em 1em 1em;
-font-size: 1.5rem;
-width: 100%;
+    display: flex;
+    text-align: left;
+    padding: 2em 1em 1em;
+    font-size: 1.5rem;
+    width: 100%;
+    flex-direction: column;
 }
 footer .container{
 display: flex;
@@ -356,9 +358,9 @@ footer{
     }
     
     .intro-container h1{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 10px;
-        line-height: 1.5em;
+        /* line-height: 1.5em; */
     }
     
     .intro-container p{
@@ -400,8 +402,9 @@ footer{
         flex-direction: row;
     }
     
-    .productive img{
+    .productive > img{
         order: 1;
+        width: 50%;
     }
     
     .productive-container{
@@ -432,7 +435,7 @@ footer{
     }
     
     .testimonial-container{
-        width: 500px;
+        max-width: 500px;
         /* background-color: green; */
         padding: 20px;
         margin-top: 50px;
@@ -468,7 +471,7 @@ footer{
     
     /* early access section */
     
-    .early-access{
+    .early-access  .container{
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -509,11 +512,10 @@ footer{
         text-align: left;
         padding: 8em 5em 6em;
         font-size: 1.5rem;
-    }
-    footer .container{
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
+   
     
     footer img{
         margin-right: 20px;
