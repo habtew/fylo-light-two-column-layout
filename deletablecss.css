@@ -10,6 +10,8 @@
 
     --clr-grayish-blue:hsl(240, 75%, 98%);
     --clr-light-gray: hsl(0, 0%, 75%);
+    
+    
 
 }
 
@@ -495,6 +497,7 @@ footer .socail .fa-brands{
 }
 .socail .fa-brands:hover{
     box-shadow: var(--clr-cell-to-cyan) 0px 7px 29px 0px;
+    border: 1px solid black;
 }
 
 
