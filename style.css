@@ -305,7 +305,7 @@ footer{
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 820px){
     
     .container{
         width: 100%;
@@ -480,7 +480,8 @@ footer{
     }
     
     .early-access-container{
-        max-width: 700px;
+        /* max-width: 700px; */
+        max-width: 50%;
         margin-right: 50px;
         padding: 3em 2em;
         /* background: yellow; */
@@ -539,3 +540,4 @@ footer{
         box-shadow: var(--clr-cell-to-cyan) 0px 7px 29px 0px;
     }
 }
+
