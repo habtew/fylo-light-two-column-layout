@@ -86,9 +86,10 @@ header{
 }
 
 .intro-container form{
+    display: flex;
     flex-direction: column;
     margin-right: 0;
-
+    position: relative;
 }
 
 input, button{
@@ -102,6 +103,7 @@ form input{
     border: 1px solid black;
     margin-right: 20px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 form button{
@@ -112,9 +114,13 @@ form span{
     color: red;
     margin-top: 10px;
     display: none;
+
 }
 
-
+form .span1{
+    position: absolute;
+    top: 80px
+}
 /* stay productive layout */
 
 .productive{
@@ -362,6 +368,7 @@ footer{
     }
     
     .intro-container form{
+        flex-direction: row;
         justify-content: space-between;
         margin-right: 30px;
     }
@@ -377,8 +384,13 @@ footer{
     form button{
         width: 50%;
         opacity: 0.7;
+        height: fit-content;
     }
     
+    form .span1{
+        position: absolute;
+        bottom: -20px;
+    }
     /* stay productive layout */
     
     .productive{
