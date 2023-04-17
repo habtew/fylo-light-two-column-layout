@@ -300,15 +300,29 @@ footer{
 
 @media (min-width: 420px) {
     .container{
-        width: 400px;
+        /* width: 400px; */
+        /* max-width: 400px; */
+        width: 80%;
         margin: 0 auto;
     }
+}
+
+@media (min-width: 700px) {
+    .container{
+        max-width: 600px;
+        width: 95%;
+    }
+    
 }
 
 @media (min-width: 820px){
     
     .container{
-        width: 100%;
+        /* max-width: 700px; */
+        /* max-width: 600px; */
+        /* width: 60% */
+        min-width: 100%;
+        width: 100%
     }
     header{
         margin: 50px;
