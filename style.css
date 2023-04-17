@@ -98,6 +98,7 @@ input, button{
     padding: 1em .7em;
     font-size: 1.3rem;
     border: none;
+    /* margin-bottom: 0; */
     margin-block: .5em;
 }
 
@@ -111,7 +112,11 @@ form button{
     width: 100%;
     opacity: 0.7;
 }
-
+form span{
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
 
 /* stay productive layout */
 
@@ -220,8 +225,10 @@ width: 100%;
 } 
 .early-access form input{
 /* width: 100%; */
-margin: 20px 0;
+ margin: 20px 0;
 }
+
+
 
 /* footer */
 footer{
@@ -390,19 +397,20 @@ footer{
     }
     
     input, button{
-        padding: 1em .7em;
-        font-size: 1.4rem;
-        border: none
+        /* padding: 1em .7em; */
+        /* font-size: 1.4rem; */
+        border: none;
+        margin-bottom: 0;
     }
     
     form input{
         border: 1px solid black;
         margin-right: 20px;
-        width: 60%;
+        width: 70%;
     }
     
     form button{
-        width: 35%;
+        width: 50%;
         opacity: 0.7;
     }
     
